@@ -26,7 +26,7 @@ Everything in the code is commented to explain why a line exists (not just what 
 
 -no cloning required, just click:
 
-ainali-10.github.io/API-TESTER
+https://ainali-10.github.io/API-TESTER/
 
 -running it locally
 
