@@ -53,7 +53,7 @@ project/
 
 ## Built with
 
-Plain HTML, CSS and JavaScript — no React, no Node, no npm. Zero dependencies.
+Plain HTML, CSS and JavaScript. no React, no Node, no npm. Zero dependencies.
 
 ## Try it out
 
@@ -68,4 +68,4 @@ The app comes pre-loaded with a request to jsonplaceholder (a free fake API for 
 
 ## License
 
-Do whatever you want with it — this is a learning project, not a company.
+Do whatever you want with it. This is a learning project, not a company.
