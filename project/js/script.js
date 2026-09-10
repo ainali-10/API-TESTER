@@ -6,10 +6,10 @@
 
 
 
-// =============================================================
+
 // DOM REFERENCES
 // Grab every element we'll need to read from or write to.
-// =============================================================
+
 const urlInput = document.getElementById("urlInput");
 const methodSelect = document.getElementById("methodSelect");
 const bodyInput = document.getElementById("bodyInput");
@@ -37,12 +37,10 @@ const clearHistoryBtn = document.getElementById("clearHistoryBtn");
 // something to grab without re-parsing anything.
 let lastResponseText = "";
 
-// =============================================================
 // DYNAMIC KEY/VALUE ROWS (used for both Headers and Query Params)
 // Instead of one fixed input, the user can add/remove as many
 // rows as they want. Each row is just two <input> elements plus
 // a remove button, all created with document.createElement().
-// =============================================================
 function createKeyValueRow(container, keyPlaceholder, valuePlaceholder) {
   const row = document.createElement("div");
   row.className = "kv-row";
@@ -98,9 +96,8 @@ function collectKeyValuePairs(container) {
 // JSON API call needs Content-Type.
 createKeyValueRow(headersList, "Header name (e.g. Content-Type)", "Value (e.g. application/json)");
 
-// =============================================================
+
 // SEND REQUEST
-// =============================================================
 sendBtn.addEventListener("click", sendRequest);
 
 async function sendRequest() {
